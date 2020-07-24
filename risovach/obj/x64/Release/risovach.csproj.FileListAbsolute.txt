@@ -1,0 +1,13 @@
+E:\programmy\1\risovach\risovach\bin\x64\Release\risovach.exe.config
+E:\programmy\1\risovach\risovach\bin\x64\Release\risovach.exe
+E:\programmy\1\risovach\risovach\bin\x64\Release\risovach.pdb
+E:\programmy\1\risovach\risovach\bin\x64\Release\Newtonsoft.Json.dll
+E:\programmy\1\risovach\risovach\bin\x64\Release\Newtonsoft.Json.xml
+E:\programmy\1\risovach\risovach\obj\x64\Release\risovach.csprojAssemblyReference.cache
+E:\programmy\1\risovach\risovach\obj\x64\Release\risovach.Form1.resources
+E:\programmy\1\risovach\risovach\obj\x64\Release\risovach.Properties.Resources.resources
+E:\programmy\1\risovach\risovach\obj\x64\Release\risovach.csproj.GenerateResource.cache
+E:\programmy\1\risovach\risovach\obj\x64\Release\risovach.csproj.CoreCompileInputs.cache
+E:\programmy\1\risovach\risovach\obj\x64\Release\risovach.csproj.CopyComplete
+E:\programmy\1\risovach\risovach\obj\x64\Release\risovach.exe
+E:\programmy\1\risovach\risovach\obj\x64\Release\risovach.pdb
