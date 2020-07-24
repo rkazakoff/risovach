@@ -8,6 +8,7 @@ Lets you make a coloring to draw from a photo.
   - The program uses the most power of your CPU
 
 ## [Download Latest Build](https://github.com/rkazakoff/risovach/releases/tag/v1.0)
+## [Quick start](https://github.com/rkazakoff/Risovach/wiki/Quick-start)
 
 ## Beta features
 
