@@ -6,6 +6,8 @@ Lets you make a coloring to draw from a photo.
   - Use a filter to make the painting have fewer fine details and look smoother
   - Save your palette with a json file or a separate list
 
+## [Download Latest Build](https://github.com/rkazakoff/risovach/releases/tag/v1.0)
+
 ## Beta features
 
   - Arrange the color numbers on the coloring
