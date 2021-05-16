@@ -1,0 +1,12 @@
+D:\Новая папка\Risovach-master\risovach\bin\Release\risovach.exe.config
+D:\Новая папка\Risovach-master\risovach\bin\Release\risovach.exe
+D:\Новая папка\Risovach-master\risovach\bin\Release\risovach.pdb
+D:\Новая папка\Risovach-master\risovach\bin\Release\Newtonsoft.Json.dll
+D:\Новая папка\Risovach-master\risovach\bin\Release\Newtonsoft.Json.xml
+D:\Новая папка\Risovach-master\risovach\obj\Release\risovach.Form1.resources
+D:\Новая папка\Risovach-master\risovach\obj\Release\risovach.Properties.Resources.resources
+D:\Новая папка\Risovach-master\risovach\obj\Release\risovach.csproj.GenerateResource.cache
+D:\Новая папка\Risovach-master\risovach\obj\Release\risovach.csproj.CoreCompileInputs.cache
+D:\Новая папка\Risovach-master\risovach\obj\Release\risovach.csproj.CopyComplete
+D:\Новая папка\Risovach-master\risovach\obj\Release\risovach.exe
+D:\Новая папка\Risovach-master\risovach\obj\Release\risovach.pdb

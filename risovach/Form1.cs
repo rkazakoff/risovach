@@ -555,7 +555,7 @@ namespace risovach
                 {
                     core = 2;
                 }
-                //core = 2; // потом сделать до 11 потоков
+                //core = 2;
                 MakePicture.partx = widht / core;
                 partx = MakePicture.partx;
                 MakePicture.got = false;
@@ -693,11 +693,7 @@ namespace risovach
                     {
                         Action action622 = () => label_status.Text = "Фильтр шаг №" + Convert.ToString(p + 1);
                         if (label_status.InvokeRequired) label_status.Invoke(action622);
-                        else label_status.Text = "Фильтр шаг №" + Convert.ToString(p + 1);
-
-                        //Action action141 = () => MakePicture.count = trackbar_filter_cube.Value * 2;
-                        //if (trackbar_filter_cube.InvokeRequired) progressBar1.Invoke(action141);
-                        //else MakePicture.count = trackbar_filter_cube.Value * 2;                        
+                        else label_status.Text = "Фильтр шаг №" + Convert.ToString(p + 1);                  
                         for (int x = 0; x < 12; x++)
                         {
                             t[x] = false;
@@ -715,7 +711,7 @@ namespace risovach
                                 Thread.Sleep(time_interval);
                             }
                             MakePicture.got = false;
-                            MakePicture.partgo = 1;  //потом убрать комментарии
+                            MakePicture.partgo = 1;
                             Thread c2 = new Thread(MakePicture.filter_cube);
                             c2.Start();
                         }
@@ -873,7 +869,6 @@ namespace risovach
             Action action623 = () => label_status.Text = "";
             if (label_status.InvokeRequired) label_status.Invoke(action623);
             else label_status.Text = "";
-            //parametry.Text = "Размеры изображения: " + widht + " x " + height + " Используемая палитра: " + Convert.ToString(listBox_colors.Items[usespalitra]);
             Action action10 = () => parametry.Text = "Размеры изображения: " + widht + " x " + height + " Используемая палитра: " + Convert.ToString(listBox_colors.Items[usespalitra]);
             if (parametry.InvokeRequired) parametry.Invoke(action10);
             else parametry.Text = "Размеры изображения: " + widht + " x " + height + " Используемая палитра: " + Convert.ToString(listBox_colors.Items[usespalitra]);
@@ -1125,7 +1120,7 @@ namespace risovach
             }
         }
 
-        private void Button3_Click(object sender, EventArgs e)//удалить цвет?
+        private void Button3_Click(object sender, EventArgs e)
         {
             if (numbcolor.Text != "")
             {
@@ -1474,6 +1469,7 @@ namespace risovach
                 refreshcurrentpalitra();
             }
         }
+
          // сохранение раздатки - начало
         private void savelistToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1866,32 +1862,20 @@ namespace risovach
         {
             if (tabControl1.SelectedIndex == 0)
             {
-                //button_do.Enabled = false;
                 button_do.Visible = false;
-                //checkBox_filter.Enabled = false;
                 checkBox_filter.Visible = false;
-                //filter.Enabled = false;
                 filter.Visible = false;
-                //button_do2.Enabled = false;
                 button_do2.Visible = false;
-                //Param_paint.Enabled = false;
                 Param_paint.Visible = false;
-                //groupBox_resize.Enabled = true;
                 groupBox_resize.Visible = true;
             }
             else
             {
-                //button_do.Enabled = true;
                 button_do.Visible = true;
-                //checkBox_filter.Enabled = true;
                 checkBox_filter.Visible = true;
-                //filter.Enabled = true;
                 filter.Visible = true;
-                //button_do2.Enabled = true;
                 button_do2.Visible = true;
-                //Param_paint.Enabled = true;
                 Param_paint.Visible = true;
-                //groupBox_resize.Enabled = false;
                 groupBox_resize.Visible = false;
             }
         }
@@ -1917,6 +1901,11 @@ namespace risovach
         }
 
         private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
@@ -2086,11 +2075,9 @@ namespace risovach
             }           
             widht = resized_image.Width;
             height = resized_image.Height;
-            //pictureBox1.Image = imageres1;
             Action action1 = () => pictureBox_resized_image.Image = resized_image;
             if (pictureBox_resized_image.InvokeRequired) pictureBox_resized_image.Invoke(action1);
-            else pictureBox_resized_image.Image = resized_image;
-            //parametry.Text = "Размеры изображения: " + widht + " x " + height;    
+            else pictureBox_resized_image.Image = resized_image;  
             Action action22 = () => parametry.Text = "Размеры изображения: " +  widht + " x " + height;
             if (parametry.InvokeRequired) parametry.Invoke(action22);
             else parametry.Text = "Размеры изображения: " + widht + " x " + height;
