@@ -1,6 +1,3 @@
-Описание на русском ниже
-
-English
 # Risovach
 
 Lets you make a coloring to draw from a photo.
@@ -10,23 +7,17 @@ Lets you make a coloring to draw from a photo.
   - Save your palette with a json file or a separate list
   - The program uses the most power of your CPU
 
-## [Download Latest Build](https://github.com/rkazakoff/risovach/releases/tag/v1.0)
+## [Download Latest Build](https://github.com/rkazakoff/Risovach/releases/tag/v1.0.1)
 ## [Quick start](https://github.com/rkazakoff/Risovach/wiki/Quick-start)
 
 ## Beta features
 
   - Arrange the color numbers on the coloring
 
-### Installation
-
-Risovach requires [.NET Framework 4.7.2 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/net472) to run.
-
-
 ### Development
 
 For all questions write to rrkazakoff@yandex.ru
 ***
-Русский
 # Рисовач
 
 Сделайте раскраску для рисования по фотографии.
@@ -36,17 +27,12 @@ For all questions write to rrkazakoff@yandex.ru
   - Сохраните свою палитру файлом JSON или отдельным списком
   - Программа использует бо́льшую часть мощности вашего процессора
 
-## [Скачать последнюю сборку](https://github.com/rkazakoff/risovach/releases/tag/v1.0)
+## [Скачать последнюю сборку](https://github.com/rkazakoff/Risovach/releases/tag/v1.0.1)
 ## [Быстрый старт (на английском)](https://github.com/rkazakoff/Risovach/wiki/Quick-start)
 
 ## Beta функции
 
   - Расставьте номера цветов на раскраске
-
-### Установка
-
-Требуется [.NET Framework 4.7.2 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/net472) для запуска.
-
 
 ### Разработка
 
